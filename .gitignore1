@@ -1,0 +1,69 @@
+# macOS
+**/.DS_Store
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+
+# Logs and temporary files
+*.log
+.cache/
+tmp/
+temp/
+
+# Editor settings
+.vscode/
+.idea/
+
+# macOS clipboard exports
+*.textClipping
+
+# Generated project outputs
+outputs/**
+!outputs/
+!outputs/samples/
+!outputs/samples/.gitkeep
+
+# Imported reference assets kept local-only
+reference_implementations/payment_ops/simon_harris/mid_term/historical_inputs/**
+!reference_implementations/payment_ops/simon_harris/mid_term/historical_inputs/
+!reference_implementations/payment_ops/simon_harris/mid_term/historical_inputs/.gitkeep
+
+reference_implementations/payment_ops/simon_harris/mid_term/trained_models/**
+!reference_implementations/payment_ops/simon_harris/mid_term/trained_models/
+!reference_implementations/payment_ops/simon_harris/mid_term/trained_models/.gitkeep
+
+reference_implementations/payment_ops/simon_harris/mid_term/forecast_outputs/**
+!reference_implementations/payment_ops/simon_harris/mid_term/forecast_outputs/
+!reference_implementations/payment_ops/simon_harris/mid_term/forecast_outputs/.gitkeep
+
+# Generated assets from the CS reference implementation
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/__pycache__/
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/catboost_info/
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/queue_features/
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/queue_hyperparameters/
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/queue_training_windows/
+reference_implementations/cs/mathieu_brissy/Volume_Mid_Term_Forecast/results/
